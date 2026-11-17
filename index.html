@@ -1,0 +1,1139 @@
+
+<!-- Declara ao navegador que este é um documento HTML5 moderno -->
+<!DOCTYPE html>
+<!-- Define o idioma da página como Português do Brasil -->
+<html lang="pt-BR">
+
+<head>
+  <!-- Configuração de caracteres e acentuação -->
+  <meta charset="UTF-8">
+
+  <!-- Configuração para celulares e tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da página no navegador -->
+  <title>Ruby Lingerie | Beleza, Conforto e Elegância</title>
+
+  <!-- ========================================================
+       FOLHAS DE ESTILO (Bootstrap 5.3 + Bootstrap Icons + Google Fonts)
+       ======================================================== -->
+
+  <!-- Importação do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Importação dos ícones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Conexão com Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonte utilizada no site -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Arquivo CSS personalizado -->
+  <link rel="stylesheet" href="./Assets/styles/style.css">
+</head>
+
+<!-- Conteúdo visível da página -->
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar">
+
+  <!-- ========================================================
+       1. BARRA DE NAVEGAÇÃO (NAVBAR)
+       Identidade visual: Ruby Lingerie
+       ======================================================== -->
+
+  <!-- Menu superior com fundo vinho -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm py-3" style="background-color: #70243D;">
+
+    <div class="container">
+
+      <!-- Logo e nome da empresa -->
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio">
+
+        <!-- Ícone de coração representando a identidade feminina da marca -->
+        <i class="bi bi-heart-fill fs-4" style="color: #F2B8C6;"></i>
+
+        <!-- Nome da empresa -->
+        <span>Ruby Lingerie</span>
+
+      </a>
+
+      <!-- Botão de navegação para celulares -->
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir navegação">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <!-- Links de navegação -->
+      <div class="collapse navbar-collapse" id="navMenu">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-medium gap-lg-2">
+
+          <!-- Link para a página inicial -->
+          <li class="nav-item">
+            <a class="nav-link active" href="#inicio">Início</a>
+          </li>
+
+          <!-- Link para apresentação da empresa -->
+          <li class="nav-item">
+            <a class="nav-link" href="#quem-somos">Quem somos</a>
+          </li>
+
+          <!-- Link para produtos e coleções -->
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Coleções</a>
+          </li>
+
+          <!-- Link para endereço da loja -->
+          <li class="nav-item">
+            <a class="nav-link" href="#localizacao">Localização</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  
+<!-- ========================================================
+     2. BANNER / CABEÇALHO (HERO SECTION)
+     Apresentação principal da Ruby Lingerie
+     ======================================================== -->
+
+<header id="inicio" class="hero-section d-flex align-items-center">
+  <div class="container py-4">
+
+    <div class="row align-items-center justify-content-center text-center text-lg-start gy-4">
+
+      <!-- Coluna da logo -->
+      <div class="col-lg-4 text-center">
+
+        <!-- Logo da Ruby Lingerie -->
+        <img src="./Assets/images/logo_200x200.png"
+             alt="Logotipo da Ruby Lingerie"
+             class="rounded-circle hero-logo img-fluid mx-auto"
+             width="200"
+             height="200">
+
+      </div>
+
+      <!-- Coluna de apresentação -->
+      <div class="col-lg-8">
+
+        <!-- Etiqueta de destaque -->
+        <span class="badge rounded-pill px-3 py-2 mb-3 text-uppercase fw-semibold"
+              style="background-color: #F2B8C6; color: #70243D;">
+
+          Beleza, Conforto & Feminilidade
+
+        </span>
+
+        <!-- Nome da empresa -->
+        <h1 class="display-4 fw-bold mb-3 text-white">
+          Ruby Lingerie
+        </h1>
+
+        <!-- Slogan da marca -->
+        <p class="lead text-light mb-4 opacity-75">
+          Realce sua beleza, valorize suas curvas e descubra o poder de se sentir linda, confortável e confiante em todos os momentos.
+        </p>
+
+        <!-- Botões de navegação -->
+        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+
+          <!-- Botão para conhecer as coleções -->
+          <a href="#galeria"
+             class="btn btn-lg rounded-pill px-4 shadow"
+             style="background-color: #F2B8C6; color: #70243D; border: none;">
+
+            <i class="bi bi-heart-fill me-2"></i>
+            Conheça nossas coleções
+
+          </a>
+
+          <!-- Botão para conhecer a empresa -->
+          <a href="#quem-somos"
+             class="btn btn-outline-light btn-lg rounded-pill px-4">
+
+            Saiba Mais
+
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<!-- ========================================================
+     3. SEÇÃO: QUEM SOMOS
+     História, propósito e diferenciais da Ruby Lingerie
+     ======================================================== -->
+
+<section id="quem-somos" class="bg-light">
+  <div class="container">
+
+    <!-- Título da seção -->
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold" style="color: #70243D;">
+        Quem Somos
+      </h2>
+
+      <p class="text-secondary">
+        Conheça a Ruby Lingerie e descubra uma nova forma de valorizar sua beleza.
+      </p>
+
+      <!-- Divisor decorativo -->
+      <div class="section-divider"></div>
+
+    </div>
+
+    <!-- Apresentação da empresa -->
+    <div class="row align-items-center gy-4 mb-5">
+
+      <!-- Texto institucional -->
+      <div class="col-lg-6">
+
+        <h3 class="fw-bold mb-3" style="color: #70243D;">
+          Sua beleza merece conforto, delicadeza e autoestima.
+        </h3>
+
+        <p class="text-secondary leading-relaxed">
+
+          A <strong>Ruby Lingerie</strong> é uma empresa dedicada ao universo da moda íntima feminina, oferecendo peças que unem beleza, conforto e elegância. Nossa proposta é valorizar a individualidade de cada mulher, proporcionando momentos de bem-estar e confiança.
+
+        </p>
+
+        <p class="text-secondary">
+
+          Trabalhamos com peças pensadas para diferentes estilos e ocasiões, desde opções delicadas para o dia a dia até modelos especiais para quem deseja se sentir ainda mais bonita e confiante.
+
+        </p>
+
+        <p class="text-secondary">
+
+          Mais do que vender lingerie, queremos fazer parte dos momentos em que cada mulher reconhece e valoriza sua própria beleza.
+
+        </p>
+
+      </div>
+
+      <!-- Imagem ilustrativa da loja -->
+      <div class="col-lg-6">
+
+        <!-- Substitua pelo caminho da sua fotografia -->
+        <img src="./Assets/images/ruby-lingerie.jpg"
+             alt="Coleção de moda íntima feminina Ruby Lingerie"
+             class="img-fluid rounded-4 shadow-sm w-100">
+
+      </div>
+
+    </div>
+
+    <!-- Diferenciais da Ruby Lingerie -->
+    <div class="row g-4">
+
+      <!-- Cartão 1: Qualidade -->
+      <div class="col-md-4">
+
+        <div class="card h-100 p-4 border-0 shadow-sm rounded-4 custom-card text-center text-md-start">
+
+          <div class="fs-1 mb-3" style="color: #A94461;">
+            <i class="bi bi-gem"></i>
+          </div>
+
+          <h4 class="h5 fw-bold mb-2">
+            Qualidade e Elegância
+          </h4>
+
+          <p class="text-secondary mb-0">
+            Peças selecionadas com atenção aos detalhes, unindo beleza, delicadeza e conforto.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Cartão 2: Atendimento -->
+      <div class="col-md-4">
+
+        <div class="card h-100 p-4 border-0 shadow-sm rounded-4 custom-card text-center text-md-start">
+
+          <div class="fs-1 mb-3" style="color: #A94461;">
+            <i class="bi bi-heart"></i>
+          </div>
+
+          <h4 class="h5 fw-bold mb-2">
+            Atendimento Especial
+          </h4>
+
+          <p class="text-secondary mb-0">
+            Atendimento acolhedor e atencioso para ajudar cada cliente a encontrar as peças ideais.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Cartão 3: Autoestima -->
+      <div class="col-md-4">
+
+        <div class="card h-100 p-4 border-0 shadow-sm rounded-4 custom-card text-center text-md-start">
+
+          <div class="fs-1 mb-3" style="color: #A94461;">
+            <i class="bi bi-stars"></i>
+          </div>
+
+          <h4 class="h5 fw-bold mb-2">
+            Beleza e Autoestima
+          </h4>
+
+          <p class="text-secondary mb-0">
+            Acreditamos que toda mulher merece se sentir bonita, confiante e especial em todos os momentos.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ 
+<!-- ========================================================
+     4. SEÇÃO: COLEÇÕES RUBY LINGERIE
+     - Vitrine de produtos e categorias da loja
+     - Grade com seis cartões de imagens
+     ======================================================== -->
+
+<section id="galeria">
+  <div class="container">
+
+    <!-- Título da seção -->
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold" style="color: #70243D;">
+        Nossas Coleções
+      </h2>
+
+      <p class="text-secondary">
+        Descubra nossas peças e encontre a lingerie perfeita para cada momento.
+      </p>
+
+      <div class="section-divider"></div>
+
+    </div>
+
+    <!-- Grade de produtos -->
+    <div class="row g-4">
+
+      <!-- PRODUTO 1: CONJUNTOS -->
+      <div class="col-sm-6 col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden custom-card">
+
+          <div class="gallery-img-wrapper">
+
+            <img src="./Assets/images/conjuntos.jpg"
+                 alt="Conjuntos de lingerie feminina"
+                 class="img-fluid">
+
+          </div>
+
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-1" style="color: #70243D;">
+              Conjuntos de Lingerie
+            </h5>
+
+            <p class="text-muted small mb-0">
+              Combinações delicadas e elegantes para valorizar sua beleza e autoestima.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUTO 2: SUTIÃS -->
+      <div class="col-sm-6 col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden custom-card">
+
+          <div class="gallery-img-wrapper">
+
+            <img src="./Assets/images/sutias.jpg"
+                 alt="Coleção de sutiãs femininos"
+                 class="img-fluid">
+
+          </div>
+
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-1" style="color: #70243D;">
+              Sutiãs
+            </h5>
+
+            <p class="text-muted small mb-0">
+              Modelos variados que unem sustentação, conforto e beleza para o dia a dia.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUTO 3: CALCINHAS -->
+      <div class="col-sm-6 col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden custom-card">
+
+          <div class="gallery-img-wrapper">
+
+            <img src="./Assets/images/calcinhas.jpg"
+                 alt="Coleção de calcinhas femininas"
+                 class="img-fluid">
+
+          </div>
+
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-1" style="color: #70243D;">
+              Calcinhas
+            </h5>
+
+            <p class="text-muted small mb-0">
+              Peças confortáveis e delicadas, disponíveis em diferentes modelos e estilos.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUTO 4: BODIES -->
+      <div class="col-sm-6 col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden custom-card">
+
+          <div class="gallery-img-wrapper">
+
+            <img src="./Assets/images/bodies.jpg"
+                 alt="Bodies femininos da Ruby Lingerie"
+                 class="img-fluid">
+
+          </div>
+
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-1" style="color: #70243D;">
+              Bodies
+            </h5>
+
+            <p class="text-muted small mb-0">
+              Modelos sofisticados para compor produções modernas e cheias de personalidade.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUTO 5: PIJAMAS -->
+      <div class="col-sm-6 col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden custom-card">
+
+          <div class="gallery-img-wrapper">
+
+            <img src="./Assets/images/pijamas.jpg"
+                 alt="Pijamas femininos"
+                 class="img-fluid">
+
+          </div>
+
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-1" style="color: #70243D;">
+              Pijamas
+            </h5>
+
+            <p class="text-muted small mb-0">
+              Conforto e delicadeza para transformar seus momentos de descanso.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUTO 6: LINHA ESPECIAL -->
+      <div class="col-sm-6 col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden custom-card">
+
+          <div class="gallery-img-wrapper">
+
+            <img src="./Assets/images/linha-especial.jpg"
+                 alt="Coleção especial de lingerie feminina"
+                 class="img-fluid">
+
+          </div>
+
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-1" style="color: #70243D;">
+              Linha Especial
+            </h5>
+
+            <p class="text-muted small mb-0">
+              Peças especiais para momentos únicos, com charme, sofisticação e feminilidade.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+ 
+<!-- ========================================================
+     5. SEÇÃO: LOCALIZAÇÃO
+     Ruby Lingerie
+     Endereço, horários, telefone e mapa
+     ======================================================== -->
+
+<section id="localizacao" class="bg-light">
+  <div class="container">
+
+    <!-- Título da seção -->
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold" style="color: #70243D;">
+        Onde Estamos
+      </h2>
+
+      <p class="text-secondary">
+        Será um prazer receber você! Confira nosso endereço e horários de atendimento.
+      </p>
+
+      <div class="section-divider"></div>
+
+    </div>
+
+    <!-- Informações da loja e mapa -->
+    <div class="row g-4 align-items-stretch">
+
+      <!-- Coluna de informações -->
+      <div class="col-lg-5">
+
+        <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5 h-100 d-flex flex-column justify-content-between">
+
+          <div>
+
+            <h3 class="h4 fw-bold mb-4" style="color: #70243D;">
+              Ruby Lingerie
+            </h3>
+
+            <!-- ENDEREÇO -->
+            <div class="d-flex align-items-start gap-3 mb-4">
+
+              <div class="fs-4" style="color: #A94461;">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+
+              <div>
+
+                <h6 class="fw-bold mb-1">
+                  Nosso Endereço
+                </h6>
+
+                <p class="text-secondary mb-0">
+                  Avenida J.-2 Esquina com a - R. L-16 - Papillon Park,<br>
+                  Aparecida de Goiânia - GO,<br>
+                  CEP: 74950-170
+                </p>
+
+              </div>
+            </div>
+
+            <!-- HORÁRIO DE FUNCIONAMENTO -->
+            <div class="d-flex align-items-start gap-3 mb-4">
+
+              <div class="fs-4" style="color: #A94461;">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+
+              <div>
+
+                <h6 class="fw-bold mb-1">
+                  Horário de Atendimento
+                </h6>
+
+                <p class="text-secondary mb-0">
+                  Segunda a Sexta: 07:00 às 22:00.<br>
+                  Sábados: Fechado.<br>
+                  Domingos: Fechado.
+                </p>
+
+              </div>
+            </div>
+
+            <!-- TELEFONE -->
+            <div class="d-flex align-items-start gap-3">
+
+              <div class="fs-4" style="color: #A94461;">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+
+              <div>
+
+                <h6 class="fw-bold mb-1">
+                  Entre em Contato
+                </h6>
+
+                <p class="text-secondary mb-0">
+                  (62) 3284-7959<br>
+                  (62) 3284-7959
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- BOTÃO DO GOOGLE MAPS -->
+          <div class="mt-4 pt-3 border-top">
+
+            <a href="https://maps.google.com"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn rounded-pill w-100"
+               style="background-color: #70243D; color: white;">
+
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              Como chegar até nós
+
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- COLUNA DO MAPA -->
+      <div class="col-lg-7">
+
+        <div class="map-container shadow-sm rounded-4 overflow-hidden">
+
+          <!-- Mapa original preservado -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.035502538439!2d-49.2743776!3d-16.7749092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935efa3cf88001e9%3A0xab508c26038f301c!2zRnVuZGHDp8OjbyBCcmFkZXNjbw!5e0!3m2!1spt-BR!2sbr!4v1794517660621!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin">
+          </iframe>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ 
+<!-- ========================================================
+     6. SEÇÃO: FALE CONOSCO - RUBY LINGERIE
+     - Atendimento ao cliente
+     - Canais de comunicação
+     - Formulário para dúvidas e pedidos
+     ======================================================== -->
+
+<section id="fale-conosco" class="bg-white">
+  <div class="container">
+
+    <!-- Cabeçalho da seção -->
+    <div class="text-center mb-5">
+
+      <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold mb-2"
+            style="background-color: #F8E9E9; color: #70243D;">
+
+        Atendimento Especial
+
+      </span>
+
+      <h2 class="display-6 fw-bold mt-2" style="color: #70243D;">
+        Fale Conosco
+      </h2>
+
+      <p class="text-secondary max-w-xl mx-auto">
+        Tem dúvidas sobre nossos produtos, tamanhos ou coleções? Entre em contato com a Ruby Lingerie. Será um prazer atender você!
+      </p>
+
+      <div class="section-divider"></div>
+
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- CARTÃO LATERAL: CANAIS DE ATENDIMENTO -->
+      <div class="col-lg-4">
+
+        <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-white"
+             style="background-color: #70243D;">
+
+          <h4 class="fw-bold mb-4 text-white">
+            Nosso Atendimento
+          </h4>
+
+          <!-- WHATSAPP -->
+          <div class="d-flex align-items-center gap-3 mb-4">
+
+            <div class="p-3 rounded-circle fs-4"
+                 style="background-color: rgba(242,184,198,0.2); color: #F2B8C6;">
+
+              <i class="bi bi-whatsapp"></i>
+
+            </div>
+
+            <div>
+
+              <small class="text-white-50 d-block">
+                WhatsApp Comercial
+              </small>
+
+              <a href="https://wa.me/556232847959"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="text-white fw-bold text-decoration-none">
+
+                (62) 3284-7959
+
+              </a>
+
+            </div>
+          </div>
+
+          <!-- E-MAIL -->
+          <div class="d-flex align-items-center gap-3 mb-4">
+
+            <div class="p-3 rounded-circle fs-4"
+                 style="background-color: rgba(242,184,198,0.2); color: #F2B8C6;">
+
+              <i class="bi bi-envelope-heart"></i>
+
+            </div>
+
+            <div>
+
+              <small class="text-white-50 d-block">
+                E-mail da Loja
+              </small>
+
+              <span class="text-white fw-bold">
+                Consulte nosso atendimento
+              </span>
+
+            </div>
+          </div>
+
+          <!-- ATENDIMENTO -->
+          <div class="d-flex align-items-center gap-3 mb-4">
+
+            <div class="p-3 rounded-circle fs-4"
+                 style="background-color: rgba(242,184,198,0.2); color: #F2B8C6;">
+
+              <i class="bi bi-heart"></i>
+
+            </div>
+
+            <div>
+
+              <small class="text-white-50 d-block">
+                Nosso compromisso
+              </small>
+
+              <span class="text-white fw-bold">
+                Atendimento com carinho e atenção
+              </span>
+
+            </div>
+          </div>
+
+          <!-- MENSAGEM FINAL -->
+          <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+
+            <p class="small text-white-50 mb-0">
+
+              <i class="bi bi-info-circle me-1"></i>
+              Sua satisfação é muito importante para nós. Entre em contato sempre que precisar!
+
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FORMULÁRIO DE CONTATO -->
+      <div class="col-lg-8">
+
+        <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5">
+
+          <!-- ALERTA DE SUCESSO -->
+          <div id="formSuccessAlert"
+               class="alert alert-success d-none rounded-3 shadow-sm mb-4"
+               role="alert">
+
+            <div class="d-flex align-items-center">
+
+              <i class="bi bi-check-circle-fill fs-4 me-3"></i>
+
+              <div>
+
+                <h6 class="alert-heading fw-bold mb-1">
+                  Mensagem enviada!
+                </h6>
+
+                <p class="mb-0 small">
+                  Obrigada por entrar em contato com a Ruby Lingerie!
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- FORMULÁRIO -->
+          <form id="contactForm" onsubmit="handleContactSubmit(event)">
+
+            <div class="row g-3">
+
+              <!-- NOME -->
+              <div class="col-md-6">
+
+                <label for="nome" class="form-label fw-semibold">
+                  Nome Completo *
+                </label>
+
+                <input type="text"
+                       class="form-control form-control-lg rounded-3 fs-6"
+                       id="nome"
+                       placeholder="Digite seu nome completo"
+                       required>
+
+              </div>
+
+              <!-- E-MAIL -->
+              <div class="col-md-6">
+
+                <label for="email" class="form-label fw-semibold">
+                  E-mail *
+                </label>
+
+                <input type="email"
+                       class="form-control form-control-lg rounded-3 fs-6"
+                       id="email"
+                       placeholder="seuemail@exemplo.com"
+                       required>
+
+              </div>
+
+              <!-- TELEFONE -->
+              <div class="col-md-6">
+
+                <label for="telefone" class="form-label fw-semibold">
+                  Telefone / WhatsApp
+                </label>
+
+                <input type="tel"
+                       class="form-control form-control-lg rounded-3 fs-6"
+                       id="telefone"
+                       placeholder="(00) 00000-0000">
+
+              </div>
+
+              <!-- ASSUNTO -->
+              <div class="col-md-6">
+
+                <label for="assunto" class="form-label fw-semibold">
+                  Assunto *
+                </label>
+
+                <select class="form-select form-select-lg rounded-3 fs-6"
+                        id="assunto"
+                        required>
+
+                  <option value="" disabled selected>
+                    Selecione o assunto...
+                  </option>
+
+                  <option value="Produtos">
+                    Informações sobre produtos
+                  </option>
+
+                  <option value="Tamanhos">
+                    Dúvidas sobre tamanhos
+                  </option>
+
+                  <option value="Pedidos">
+                    Pedidos e compras
+                  </option>
+
+                  <option value="Colecoes">
+                    Novas coleções
+                  </option>
+
+                  <option value="Parcerias">
+                    Parcerias comerciais
+                  </option>
+
+                  <option value="Outro">
+                    Outro assunto
+                  </option>
+
+                </select>
+
+              </div>
+
+              <!-- MENSAGEM -->
+              <div class="col-12">
+
+                <label for="mensagem" class="form-label fw-semibold">
+                  Sua Mensagem *
+                </label>
+
+                <textarea class="form-control form-control-lg rounded-3 fs-6"
+                          id="mensagem"
+                          rows="4"
+                          placeholder="Conte para nós como podemos ajudar você..."
+                          required></textarea>
+
+              </div>
+
+              <!-- BOTÃO ENVIAR -->
+              <div class="col-12 text-end mt-4">
+
+                <button type="submit"
+                        id="submitBtn"
+                        class="btn btn-lg rounded-pill px-5 shadow-sm"
+                        style="background-color: #70243D; color: white;">
+
+                  <i class="bi bi-send-fill me-2"></i>
+                  Enviar Mensagem
+
+                </button>
+
+              </div>
+
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ 
+<!-- ========================================================
+     7. RODAPÉ (FOOTER)
+     Identidade visual da Ruby Lingerie
+     ======================================================== -->
+
+<footer class="text-white py-4 border-top border-secondary border-opacity-25"
+        style="background-color: #70243D;">
+
+  <div class="container">
+
+    <div class="row align-items-center justify-content-between gy-3 text-center text-md-start">
+
+      <!-- Direitos autorais -->
+      <div class="col-md-8">
+
+        <p class="mb-0 text-white-50">
+          &copy; 2026 - Ruby Lingerie - Todos os direitos reservados.
+        </p>
+
+      </div>
+
+      <!-- Redes sociais -->
+      <div class="col-md-4 text-md-end">
+
+        <!-- Instagram: substituir pelo perfil oficial -->
+        <a href="#inicio"
+           class="text-white text-decoration-none me-3"
+           title="Instagram da Ruby Lingerie">
+
+          <i class="bi bi-instagram fs-5"></i>
+
+        </a>
+
+        <!-- Facebook: substituir pelo perfil oficial -->
+        <a href="#inicio"
+           class="text-white text-decoration-none me-3"
+           title="Facebook da Ruby Lingerie">
+
+          <i class="bi bi-facebook fs-5"></i>
+
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/556232847959"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-white text-decoration-none me-3"
+           title="WhatsApp da Ruby Lingerie">
+
+          <i class="bi bi-whatsapp fs-5"></i>
+
+        </a>
+
+        <!-- Voltar ao início -->
+        <a href="#inicio"
+           class="text-white text-decoration-none"
+           title="Voltar ao início">
+
+          <i class="bi bi-arrow-up-circle fs-5"></i>
+
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+<!-- ========================================================
+     SCRIPTS: BOOTSTRAP E FUNCIONALIDADES DO SITE
+     ======================================================== -->
+
+<!-- Importação do JavaScript do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+  // ========================================================
+  // 1. FECHAR MENU AUTOMATICAMENTE NO CELULAR
+  // ========================================================
+
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  const menuToggle = document.getElementById('navMenu');
+
+  const bsCollapse = new bootstrap.Collapse(menuToggle, {
+    toggle: false
+  });
+
+  navLinks.forEach((link) => {
+
+    link.addEventListener('click', () => {
+
+      if (
+        window.innerWidth < 992 &&
+        menuToggle.classList.contains('show')
+      ) {
+
+        bsCollapse.hide();
+
+      }
+
+    });
+
+  });
+
+
+  // ========================================================
+  // 2. ENVIO DO FORMULÁRIO PELO WHATSAPP
+  // ========================================================
+
+  function handleContactSubmit(event) {
+
+    event.preventDefault();
+
+    // Captura os dados preenchidos pela cliente
+    const nome = document.getElementById('nome').value.trim();
+
+    const email = document.getElementById('email').value.trim();
+
+    const telefone = document.getElementById('telefone').value.trim();
+
+    const assunto = document.getElementById('assunto').value;
+
+    const mensagem = document.getElementById('mensagem').value.trim();
+
+    // Número comercial da Ruby Lingerie
+    // Confirmar se este número pertence à loja antes de publicar
+    const numeroWhatsApp = '556232847959';
+
+    // Captura o botão
+    const submitBtn = document.getElementById('submitBtn');
+
+    // Verifica se os campos obrigatórios estão preenchidos
+    if (!nome || !email || !assunto || !mensagem) {
+
+      alert('Por favor, preencha todos os campos obrigatórios.');
+
+      return;
+
+    }
+
+    // Prepara a mensagem que será enviada ao WhatsApp
+    const textoWhatsApp =
+      'Olá, Ruby Lingerie! 💗\n\n' +
+      '*Nova mensagem pelo site*\n\n' +
+      '*Nome:* ' + nome + '\n' +
+      '*E-mail:* ' + email + '\n' +
+      '*Telefone:* ' + (telefone || 'Não informado') + '\n' +
+      '*Assunto:* ' + assunto + '\n\n' +
+      '*Mensagem:*\n' + mensagem;
+
+    // Converte o texto para o formato aceito pelo WhatsApp
+    const mensagemCodificada = encodeURIComponent(textoWhatsApp);
+
+    // Monta o endereço do WhatsApp
+    const linkWhatsApp =
+      'https://wa.me/' + numeroWhatsApp +
+      '?text=' + mensagemCodificada;
+
+    // Altera o botão enquanto prepara o redirecionamento
+    submitBtn.disabled = true;
+
+    submitBtn.innerHTML =
+      '<span class="spinner-border spinner-border-sm me-2"></span>Abrindo WhatsApp...';
+
+    // Abre o WhatsApp com os dados preenchidos
+    const novaAba = window.open(linkWhatsApp, '_blank');
+
+    // Restaura o botão
+    submitBtn.disabled = false;
+
+    submitBtn.innerHTML =
+      '<i class="bi bi-send-fill me-2"></i> Enviar Mensagem';
+
+    // Verifica se o navegador permitiu abrir a nova aba
+    if (!novaAba) {
+
+      alert('Não foi possível abrir o WhatsApp. Verifique se o navegador bloqueou a nova aba.');
+
+      return;
+
+    }
+
+  }
+
+</script>
+
+</body>
+</html>
